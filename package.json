@@ -1,0 +1,29 @@
+{
+  "name": "hooked-readable",
+  "version": "0.1.0",
+  "description": "A Readable stream with a beforePush hook.",
+  "keywords": [
+    "stream",
+    "utility"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "J. Scott Smith",
+    "url": "https://about.me/jscottsmith"
+  },
+  "contributors": [
+    {
+      "name": "Paul Dhillon Weber",
+      "url": "https://www.linkedin.com/in/pauldhillonweber"
+    }
+  ],
+  "main": "./lib/hooked-readable",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HumansForward/hooked-readable.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": { "node": ">=4.4.3" }
+}
