@@ -65,7 +65,7 @@ Constructor. Create a new HookedReadable with options.
 
 __options (Object)__
 
-* `beforePush` (Function) -- A callback to invoke every time the stream's push() method is called.
+* `beforePush` (Function) — A callback to invoke every time the stream's push() method is called.
 
   Example:
 
@@ -74,9 +74,9 @@ __options (Object)__
   beforePush: function(data) { data.status = 1; return data; }
   ```
 
-* `highWaterMark` (Number) -- The maximum number of bytes (or objects) to store in the internal buffer before ceasing to read from the underlying resource. Default = 16384 (16kb), or 16 for objectMode streams
+* `highWaterMark` (Number) — The maximum number of bytes (or objects) to store in the internal buffer before ceasing to read from the underlying resource. Default = 16384 (16kb), or 16 for objectMode streams
 
-* `objectMode` (Boolean) -- Whether this stream should behave as a stream of objects. Default is true.
+* `objectMode` (Boolean) — Whether this stream should behave as a stream of objects. Default is true.
 
 
 ### Event: 'overflow'
